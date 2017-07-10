@@ -1,0 +1,711 @@
+#edit-notify-type .form-item-notify-type {
+	margin-left: 1.5em; display: inline;
+}
+.container-inline-date {
+	clear: both;
+}
+.container-inline-date .form-item {
+	margin: 0px; padding: 0px; float: none;
+}
+.container-inline-date > .form-item {
+	margin-right: 0.5em; margin-bottom: 10px; vertical-align: top; display: inline-block;
+}
+.container-inline-date .form-item .form-item {
+	float: left;
+}
+.container-inline-date .form-item {
+	width: auto;
+}
+.container-inline-date .form-item input {
+	width: auto;
+}
+.container-inline-date .description {
+	clear: both;
+}
+.container-inline-date .form-item input {
+	margin-right: 5px;
+}
+.container-inline-date .form-item select {
+	margin-right: 5px;
+}
+.container-inline-date .form-item option {
+	margin-right: 5px;
+}
+.container-inline-date .date-spacer {
+	margin-left: -5px;
+}
+.views-right-60 .container-inline-date div {
+	margin: 0px; padding: 0px;
+}
+.container-inline-date .date-timezone .form-item {
+	width: auto; clear: both; float: none;
+}
+.container-inline-date .date-padding {
+	padding: 10px; float: left;
+}
+.views-exposed-form .container-inline-date .date-padding {
+	padding: 0px;
+}
+#calendar_div {
+	margin: 0px; padding: 0px;
+}
+#calendar_div td {
+	margin: 0px; padding: 0px;
+}
+#calendar_div th {
+	margin: 0px; padding: 0px;
+}
+#calendar_div {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar_control {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar_links {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar_header {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar td {
+	padding: 0px;
+}
+span.date-display-single {
+	
+}
+span.date-display-start {
+	
+}
+span.date-display-end {
+	
+}
+.date-prefix-inline {
+	display: inline-block;
+}
+.date-clear {
+	clear: both; float: none; display: block;
+}
+.date-no-float {
+	width: 98%; clear: both; float: none;
+}
+.date-float {
+	width: auto; clear: none; float: left;
+}
+.date-float .form-type-checkbox {
+	padding-right: 1em;
+}
+.form-type-date-select [class$=hour].form-type-select {
+	margin-left: 0.75em;
+}
+.date-container .date-format-delete {
+	margin-top: 1.8em; margin-left: 1.5em; float: left;
+}
+.date-container .date-format-name {
+	float: left;
+}
+.date-container .date-format-type {
+	padding-left: 10px; float: left;
+}
+.date-container .select-container {
+	clear: left; float: left;
+}
+div.date-calendar-day {
+	background: rgb(243, 243, 243); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(187, 187, 187) rgb(187, 187, 187) rgb(238, 238, 238); margin: 6px 10px 0px 0px; width: 40px; text-align: center; color: rgb(153, 153, 153); line-height: 1; float: left;
+}
+div.date-calendar-day span {
+	text-align: center; display: block;
+}
+div.date-calendar-day span.month {
+	padding: 2px; color: white; text-transform: uppercase; font-size: 0.9em; background-color: rgb(181, 190, 190);
+}
+div.date-calendar-day span.day {
+	font-size: 2em; font-weight: bold;
+}
+div.date-calendar-day span.year {
+	padding: 2px; font-size: 0.9em;
+}
+.form-item.form-item-instance-widget-settings-input-format-custom {
+	margin-left: 1.3em;
+}
+.form-item.form-item-field-settings-enddate-required {
+	margin-left: 1.3em;
+}
+#edit-field-settings-granularity .form-type-checkbox {
+	margin-right: 0.6em;
+}
+.date-year-range-select {
+	margin-right: 1em;
+}
+#ui-datepicker-div {
+	background: rgb(238, 238, 238); font-family: Verdana,sans-serif; font-size: 100%; border-right-color: rgb(102, 102, 102); border-bottom-color: rgb(102, 102, 102); border-right-width: 2px; border-bottom-width: 2px; border-right-style: solid; border-bottom-style: solid; z-index: 9999;
+}
+.ui-datepicker {
+	padding: 0.2em 0.2em 0px; width: 17em;
+}
+.ui-datepicker .ui-datepicker-header {
+	padding: 0.2em 0px; position: relative;
+}
+.ui-datepicker .ui-datepicker-prev {
+	top: 2px; width: 1.8em; height: 1.8em; position: absolute;
+}
+.ui-datepicker .ui-datepicker-next {
+	top: 2px; width: 1.8em; height: 1.8em; position: absolute;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; display: block; position: absolute;
+}
+.ui-datepicker .ui-datepicker-next span {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; display: block; position: absolute;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0px 2.3em; text-align: center; line-height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-title select {
+	margin: 1px 0px; font-size: 1em; float: left;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width: 100%;
+}
+.ui-datepicker select.ui-datepicker-month {
+	width: 49%;
+}
+.ui-datepicker select.ui-datepicker-year {
+	width: 49%;
+}
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year {
+	float: right;
+}
+.ui-datepicker table {
+	margin: 0px 0px 0.4em; width: 100%; font-size: 0.9em; border-collapse: collapse;
+}
+.ui-datepicker th {
+	padding: 0.7em 0.3em; border: 0px currentColor; border-image: none; text-align: center; font-weight: bold;
+}
+.ui-datepicker td {
+	padding: 1px; border: 0px currentColor; border-image: none;
+}
+.ui-datepicker td span {
+	padding: 0.2em; text-align: right; text-decoration: none; display: block;
+}
+.ui-datepicker td a {
+	padding: 0.2em; text-align: right; text-decoration: none; display: block;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	margin: 0.7em 0px 0px; padding: 0px 0.2em; border-right-color: currentColor; border-bottom-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-style: none; border-bottom-style: none; border-left-style: none; background-image: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	margin: 0.5em 0.2em 0.4em; padding: 0.2em 0.6em 0.3em; width: auto; overflow: visible; float: right; cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	margin: 0px auto 0.4em; width: 95%;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header {
+	border-left-width: 0px;
+}
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0px;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	width: 100%; clear: both;
+}
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	left: auto; right: 2px;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px; right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	left: auto; right: 1px;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px; right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header {
+	border-right-width: 0px; border-left-width: 1px;
+}
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0px; border-left-width: 1px;
+}
+.field .field-label {
+	font-weight: bold;
+}
+.field-label-inline .field-label {
+	float: left;
+}
+.field-label-inline .field-items {
+	float: left;
+}
+form .field-multiple-table {
+	margin: 0px;
+}
+form .field-multiple-table th.field-label {
+	padding-left: 0px;
+}
+form .field-multiple-table td.field-multiple-drag {
+	width: 30px; padding-right: 0px;
+}
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+	padding-right: 0.5em;
+}
+form .field-add-more-submit {
+	margin: 0.5em 0px 0px;
+}
+.mollom-captcha-container span {
+	display: block;
+}
+#edit-mollom-captcha {
+	display: block;
+}
+.dblog-event pre {
+	white-space: pre-wrap;
+}
+#simpletest-result-form table td {
+	white-space: pre-wrap;
+}
+.form-item-mollom-captcha label[for='edit-mollom-captcha'] {
+	float: none;
+}
+.mollom_captcha_flash_player:focus {
+	border: 2px solid yellow; border-image: none;
+}
+.mollom-captcha-container {
+	display: inline-block; position: relative;
+}
+.mollom-captcha-container .mollom-refresh-captcha {
+	position: absolute;
+}
+.mollom-captcha-container .mollom-captcha-content {
+	padding-left: 20px;
+}
+span.ext {
+	background: url("/sites/all/modules/extlink/extlink_s.png") no-repeat 2px; width: 10px; height: 10px; padding-right: 12px; text-decoration: none;
+}
+span.mailto {
+	background: url("/sites/all/modules/extlink/extlink_s.png") no-repeat -20px; width: 10px; height: 10px; padding-right: 12px; text-decoration: none;
+}
+@media print
+{
+span.ext {
+	padding: 0px; display: none;
+}
+span.mailto {
+	padding: 0px; display: none;
+}
+}
+.views-exposed-form .views-exposed-widget {
+	padding: 0.5em 1em 0px 0px; float: left;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+	margin-top: 1.6em;
+}
+.views-exposed-form .form-item {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.views-exposed-form .form-submit {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.views-exposed-form label {
+	font-weight: bold;
+}
+.views-exposed-widgets {
+	margin-bottom: 0.5em;
+}
+.views-align-left {
+	text-align: left;
+}
+.views-align-right {
+	text-align: right;
+}
+.views-align-center {
+	text-align: center;
+}
+.views-view-grid tbody {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.view .progress-disabled {
+	float: none;
+}
+#admin-menu {
+	background: url("/sites/all/modules/admin_menu/images/bkg.png") repeat-x left bottom rgb(16, 16, 16); left: 0px; top: 0px; width: 100%; text-align: left; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 9px; position: absolute;
+}
+#admin-menu-wrapper {
+	overflow: hidden;
+}
+#admin-menu .dropdown .admin-menu-icon a {
+	padding: 1px 8px 4px;
+}
+#admin-menu .dropdown .admin-menu-icon ul a {
+	padding: 4px 8px;
+}
+#admin-menu .dropdown .admin-menu-icon img {
+	vertical-align: bottom;
+}
+#admin-menu .dropdown .admin-menu-users a {
+	background: url("/sites/all/modules/admin_menu/images/icon_users.png") no-repeat 90%; padding-right: 22px;
+}
+#admin-menu .dropdown .admin-menu-action {
+	float: right;
+}
+#admin-menu .dropdown .admin-menu-search {
+	float: right;
+}
+#admin-menu .dropdown .admin-menu-action a {
+	border-right-color: currentColor; border-left-color: rgb(50, 50, 50); border-right-width: medium; border-left-width: 1px; border-right-style: none; border-left-style: solid;
+}
+body.admin-menu {
+	margin-top: 20px !important;
+}
+#admin-menu {
+	list-style: none; margin: 0px; padding: 0px; line-height: 1.4em; z-index: 999;
+}
+#admin-menu .dropdown {
+	list-style: none; margin: 0px; padding: 0px; line-height: 1.4em; z-index: 999;
+}
+#admin-menu .dropdown {
+	position: static;
+}
+#admin-menu a {
+	background: none; border: currentColor; border-image: none; text-align: left; color: rgb(238, 238, 238); font-weight: normal; text-decoration: none;
+}
+#admin-menu li > span {
+	background: none; border: currentColor; border-image: none; text-align: left; color: rgb(238, 238, 238); font-weight: normal; text-decoration: none;
+}
+#admin-menu .dropdown a {
+	padding: 4px 8px; border-right-color: rgb(50, 50, 50); border-right-width: 1px; border-right-style: solid; display: block;
+}
+#admin-menu .dropdown li > span {
+	padding: 4px 8px; border-right-color: rgb(50, 50, 50); border-right-width: 1px; border-right-style: solid; display: block;
+}
+#admin-menu .dropdown .admin-menu-tab a {
+	border-right-color: rgb(82, 86, 94); border-right-width: 1px; border-right-style: solid;
+}
+#admin-menu .dropdown li li a {
+	border-top-color: rgb(50, 50, 50); border-right-color: currentColor; border-top-width: 1px; border-right-width: medium; border-top-style: solid; border-right-style: none;
+}
+#admin-menu .dropdown li {
+	margin: 0px !important; padding: 0px; height: 100%; float: left; list-style-type: none; list-style-image: none; background-image: none;
+}
+#admin-menu .dropdown .admin-menu-tab {
+	background: url("/sites/all/modules/admin_menu/images/bkg_tab.png") repeat-x left bottom; padding-bottom: 1px;
+}
+#admin-menu .dropdown li li {
+	background: rgb(32, 32, 32); width: 160px; float: none; opacity: 0.88;
+}
+#admin-menu .dropdown li li li {
+	opacity: 1;
+}
+#admin-menu .dropdown li ul {
+	background: none; margin: 0px; left: -999em; width: 160px; line-height: 1.2em; display: none; position: absolute;
+}
+#admin-menu .dropdown li li.expandable ul {
+	margin: -20px 0px 0px 160px;
+}
+#admin-menu .dropdown li:hover ul ul {
+	left: -999em; display: none;
+}
+#admin-menu .dropdown li:hover ul ul ul {
+	left: -999em; display: none;
+}
+#admin-menu .dropdown li:hover ul ul ul ul {
+	left: -999em; display: none;
+}
+#admin-menu .dropdown li:hover ul ul ul ul ul {
+	left: -999em; display: none;
+}
+#admin-menu .dropdown li:hover ul {
+	left: auto; display: block;
+}
+#admin-menu .dropdown li li:hover ul {
+	left: auto; display: block;
+}
+#admin-menu .dropdown li li li:hover ul {
+	left: auto; display: block;
+}
+#admin-menu .dropdown li li li li:hover ul {
+	left: auto; display: block;
+}
+#admin-menu .dropdown li li li li li:hover ul {
+	left: auto; display: block;
+}
+#admin-menu .dropdown li.admin-menu-action:hover ul {
+	right: 0px;
+}
+#admin-menu .dropdown li li.expandable {
+	background: url("/sites/all/modules/admin_menu/images/arrow.png") no-repeat 145px 6px rgb(69, 69, 74);
+}
+#admin-menu .dropdown li li:hover {
+	background-color: rgb(17, 17, 17);
+}
+#admin-menu .dropdown li li:hover a {
+	color: rgb(255, 255, 255);
+}
+#admin-menu .dropdown li li:hover li:hover a {
+	color: rgb(255, 255, 255);
+}
+#admin-menu .dropdown li li:hover li:hover li:hover a {
+	color: rgb(255, 255, 255);
+}
+#admin-menu .dropdown li li.expandable:hover a {
+	border-color: rgb(68, 68, 68); color: rgb(238, 238, 238);
+}
+#admin-menu .dropdown li li.expandable:hover li.expandable:hover a {
+	border-color: rgb(68, 68, 68); color: rgb(238, 238, 238);
+}
+#admin-menu .dropdown li li.expandable:hover li a {
+	border-color: rgb(50, 50, 50);
+}
+#admin-menu .dropdown li li.expandable:hover li.expandable:hover li a {
+	border-color: rgb(50, 50, 50);
+}
+#admin-menu .dropdown li li:hover li a {
+	color: rgb(238, 238, 238);
+}
+#admin-menu .admin-menu-search .form-item {
+	margin: 0px; padding: 0px;
+}
+#admin-menu .admin-menu-search input {
+	background: no-repeat right rgb(255, 255, 255); margin: 1px 0px; padding: 2px 22px 2px 4px; border-radius: 5px; border: currentColor; border-image: none; width: 158px; font-size: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+#admin-menu .dropdown .admin-menu-search-results {
+	left: auto !important; top: 100%; display: block !important;
+}
+#admin-menu .admin-menu-search-results {
+	width: 186px;
+}
+#admin-menu .admin-menu-search-results li {
+	width: 186px;
+}
+#admin-menu li.highlight {
+	background-color: rgb(238, 238, 238) !important;
+}
+#admin-menu li.highlight > a {
+	border-color: rgb(204, 204, 204) !important; color: rgb(17, 17, 17) !important;
+}
+html.js fieldset.collapsible div.fieldset-wrapper {
+	overflow: visible;
+}
+@media print
+{
+#admin-menu {
+	display: none !important;
+}
+body.admin-menu {
+	margin-top: 0px !important;
+}
+}
+tr.admin-menu-tweak-permissions-processed {
+	cursor: pointer;
+}
+tr.admin-menu-tweak-permissions-processed td.module {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+html body.admin-menu {
+	margin-top: 29px !important;
+}
+html body.admin-menu-with-shortcuts {
+	margin-top: 65px !important;
+}
+body div.toolbar#toolbar {
+	top: 30px;
+}
+#admin-menu {
+	font: small/normal "Lucida Grande", Verdana, sans-serif; width: auto; right: 0px; font-size-adjust: none; font-stretch: normal; box-shadow: 0px -10px 20px 13px #000; -moz-box-shadow: 0 -10px 20px 13px #000; -webkit-box-shadow: 0 -10px 20px 13px #000;
+}
+#admin-menu-wrapper {
+	padding: 5px 10px 0px; font-size: 0.84em;
+}
+#admin-menu .dropdown a {
+	color: rgb(250, 250, 250);
+}
+#admin-menu .dropdown .admin-menu-action a {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+#admin-menu .dropdown .admin-menu-icon > a {
+	padding: 2px 10px 3px;
+}
+#admin-menu .dropdown .admin-menu-icon > a span {
+	background: url("/sites/all/modules/admin_menu/admin_menu_toolbar/toolbar.png") no-repeat 0px -45px; width: 11px; height: 14px; text-indent: -9999px; vertical-align: text-bottom; display: block;
+}
+#admin-menu > div > .dropdown > li > a {
+	padding: 2px 10px 3px; margin-bottom: 4px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+#admin-menu .dropdown .admin-menu-toolbar-category > a {
+	border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+}
+#admin-menu .dropdown .admin-menu-action > a {
+	border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+}
+#admin-menu .dropdown .admin-menu-toolbar-category > a.active-trail {
+	background: url("/sites/all/modules/admin_menu/admin_menu_toolbar/toolbar.png") repeat-x 0px 0px; text-shadow: 0px 1px 0px #333;
+}
+#admin-menu .dropdown .admin-menu-toolbar-category > a:hover {
+	background-color: rgb(68, 68, 68);
+}
+#admin-menu .dropdown .admin-menu-tab a {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+#admin-menu .dropdown li li.expandable ul {
+	margin: -22px 0px 0px 160px;
+}
+#admin-menu .shortcut-toggle {
+	background: url("/sites/all/modules/admin_menu/admin_menu_toolbar/toolbar.png") no-repeat 0px -20px; margin: 0px 0px 0px 1.3em; width: 25px; height: 25px; text-indent: -9999px; overflow: hidden; float: right; display: block; cursor: pointer;
+}
+#admin-menu .shortcut-toggle:focus {
+	background-position: -50px -20px;
+}
+#admin-menu .shortcut-toggle:hover {
+	background-position: -50px -20px;
+}
+#admin-menu .shortcut-toggle.active {
+	background-position: -25px -20px;
+}
+#admin-menu .shortcut-toggle.active:focus {
+	background-position: -75px -20px;
+}
+#admin-menu .shortcut-toggle.active:hover {
+	background-position: -75px -20px;
+}
+#admin-menu .shortcut-toolbar {
+	margin: 0px -10px; overflow: hidden; padding-left: 5px; clear: both; display: none; background-color: rgb(102, 102, 102);
+}
+#admin-menu .shortcut-toolbar.active {
+	display: block;
+}
+#admin-menu .shortcut-toolbar ul {
+	margin: 0px;
+}
+#admin-menu .shortcut-toolbar li {
+	float: left; list-style-type: none; list-style-image: none;
+}
+#admin-menu .shortcut-toolbar a {
+	display: block;
+}
+div#toolbar a#edit-shortcuts {
+	padding: 5px 10px 5px 5px; color: rgb(254, 254, 254); line-height: 24px; float: right;
+}
+div#toolbar a#edit-shortcuts:focus {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+div#toolbar a#edit-shortcuts:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+div#toolbar a.active#edit-shortcuts {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+div#toolbar div.toolbar-shortcuts ul {
+	padding: 5px 0px 2px; height: 28px; line-height: 24px; margin-left: 5px; float: left;
+}
+div#toolbar div.toolbar-shortcuts ul li a {
+	padding: 0px 5px; border-radius: 5px; margin-right: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+div#toolbar div.toolbar-shortcuts ul li a:focus {
+	background: rgb(85, 85, 85);
+}
+div#toolbar div.toolbar-shortcuts ul li a:hover {
+	background: rgb(85, 85, 85);
+}
+div#toolbar div.toolbar-shortcuts ul li a.active:focus {
+	background: rgb(85, 85, 85);
+}
+div#toolbar div.toolbar-shortcuts ul li a.active:hover {
+	background: rgb(0, 0, 0);
+}
+div#toolbar div.toolbar-shortcuts ul li a.active {
+	background: rgb(0, 0, 0);
+}
+div#toolbar div.toolbar-shortcuts span.icon {
+	background: rgb(68, 68, 68); border-radius: 5px; width: 30px; height: 30px; margin-right: 5px; float: left; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+div.add-or-remove-shortcuts {
+	padding-top: 5px;
+}
+div.add-or-remove-shortcuts a span.icon {
+	background: url("/modules/shortcut/shortcut.png") no-repeat 0px 0px; width: 12px; height: 12px; margin-left: 8px; float: left; display: block;
+}
+div.add-shortcut a:focus span.icon {
+	background-position: 0px -12px;
+}
+div.add-shortcut a:hover span.icon {
+	background-position: 0px -12px;
+}
+div.remove-shortcut a span.icon {
+	background-position: -12px 0px;
+}
+div.remove-shortcut a:focus span.icon {
+	background-position: -12px -12px;
+}
+div.remove-shortcut a:hover span.icon {
+	background-position: -12px -12px;
+}
+div.add-or-remove-shortcuts a span.text {
+	padding-left: 10px; float: left; display: none;
+}
+div.add-or-remove-shortcuts a:focus span.text {
+	border-radius: 0px 5px 5px 0px; color: rgb(255, 255, 255); line-height: 12px; padding-right: 6px; font-size: 10px; display: block; cursor: pointer; background-color: rgb(95, 96, 91); -moz-border-radius: 0 5px 5px 0; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+}
+div.add-or-remove-shortcuts a:hover span.text {
+	border-radius: 0px 5px 5px 0px; color: rgb(255, 255, 255); line-height: 12px; padding-right: 6px; font-size: 10px; display: block; cursor: pointer; background-color: rgb(95, 96, 91); -moz-border-radius: 0 5px 5px 0; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+}
+#shortcut-set-switch .form-type-radios {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+#shortcut-set-switch .form-item-new {
+	padding-top: 0px; padding-left: 17px;
+}
