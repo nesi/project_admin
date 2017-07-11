@@ -27,8 +27,8 @@ import nz.org.nesi.collaboration.vo.ResourceProjectUsageVO;
 
 @Controller
 public class ResourceProjectUsageController {
-	@Autowired
-	DataSource dataSource;
+//	@Autowired
+//	DataSource dataSource;
 	
 	@Autowired
 	private AdviserService adviserService;

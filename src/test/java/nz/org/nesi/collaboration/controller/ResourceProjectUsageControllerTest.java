@@ -7,6 +7,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,6 +17,11 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.setup.DefaultMockMvcBuilder;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
 
 import nz.org.nesi.collaboration.model.Adviser;
 import nz.org.nesi.collaboration.model.Project;
@@ -47,9 +54,15 @@ public class ResourceProjectUsageControllerTest {
     
     private Project project;
     private Adviser adviser;
+    @MockBean
+    private HttpServletRequest request;
+    @Autowired
+    private WebApplicationContext wac;
     
     @Before
     public void setup() {
+    	 DefaultMockMvcBuilder builder = MockMvcBuilders.webAppContextSetup(this.wac);
+         this.mockMvc = builder.build();
     	adviser = new Adviser(1, "FoS", "test@auckland.ac.nz", "Test", (byte) 1);
     	adviser.setTuakiriUniqueId("test@test.ac.nz");
     	adviser.setTuakiriToken("test");
@@ -66,15 +79,22 @@ public class ResourceProjectUsageControllerTest {
     	resourceProjectUsage.setResourceInstance(new ResourceInstance());
     	resourceProjectUsage.setValue("Test");
     	
+    	request.setAttribute("isAdviser", true);
+    	
         given(this.projectService.findProjectByCode(TEST_PRO_CODE)).willReturn(project);
         given(this.resourceProjectUsageService.getResourceProjectUsage(TEST_RPU_ID)).willReturn(resourceProjectUsage);
         given(this.adviserService.findByEppn("test@test.test.ac.nz")).willReturn(adviser);
+        given(this.adviserService.findByTuakiriToken("test")).willReturn(adviser);
+        given(request.getAttribute("isAdviser")).willReturn(true);
     }
     
     @Test
     public void testListSPU() throws Exception {
-        mockMvc.perform(get("/scientific_programmer"))
+    	MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/scientific_programmer")
+    			.requestAttr("isAdviser", true);
+        mockMvc.perform(builder)
             .andExpect(status().isOk())
+            //.andExpect(request.getAttribute("isAdviser").equals(true))
             .andExpect(model().attributeExists("ojbects"))
             .andExpect(model().size(1))
             .andExpect(view().name("generic_resources"));
@@ -82,7 +102,9 @@ public class ResourceProjectUsageControllerTest {
 
     @Test
     public void testInitAddForm() throws Exception {
-        mockMvc.perform(get("/add_scientific_programmer_usage"))
+    	MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/add_scientific_programmer_usage")
+    			.requestAttr("isAdviser", true);
+        mockMvc.perform(builder)
             .andExpect(status().isOk())
             .andExpect(model().attributeExists("genericresource"))
             .andExpect(model().attributeExists("edit"))
@@ -109,7 +131,9 @@ public class ResourceProjectUsageControllerTest {
     
     @Test
     public void testInitEditForm() throws Exception {
-        mockMvc.perform(get("/edit_scientific_programmer_usage").param("id", "1"))
+    	MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/edit_scientific_programmer_usage")
+    			.requestAttr("isAdviser", true).param("id", "1");
+        mockMvc.perform(builder)
             .andExpect(status().isOk())
             .andExpect(model().attributeExists("resourceProjectUsage"))
             .andExpect(model().attributeExists("edit"))
