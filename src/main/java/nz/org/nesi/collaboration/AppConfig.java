@@ -7,7 +7,7 @@ import org.springframework.core.env.Environment;
 //@PropertySource("file:E:\\etc\\nesi\\proadmin\\application.properties")
 
 @Configuration
-@PropertySource("file:E:\\etc\\nesi\\proadmin\\application.properties")
+@PropertySource("file:/etc/nesi/proadmin/application.properties")
 public class AppConfig {
 	@Autowired
 	Environment env;
