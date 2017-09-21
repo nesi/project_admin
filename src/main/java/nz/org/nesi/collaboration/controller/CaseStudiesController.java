@@ -143,7 +143,7 @@ public class CaseStudiesController {
 		modelAndView.addObject("edit", false);
         //transfer from project code to project id
 		//if no project, add error message, get project related researchers
-		Project project = null;
+		Project project = new Project();
         if(casestudy.getProject() != null){
         	project = projectService.findProjectByCode(retrieveProjectCode(casestudy.getProject()));
         	if(project != null){
